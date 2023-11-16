@@ -12,10 +12,9 @@ We use Python version 3.7.9 and Spark version 3.2.1 and Kafka 3.1.0.
 
 ## Part 1: Ingest Data using Kafka 
 
-This part is about sending tweets from Twitter API. To do this, follow the instructions in my last article about the ingestion of Data using Kafka. Here is the [link](https://lorenagongang.com/getting-started-with-kafka-twitter-streaming-with-apache-kafka).
+This part is about sending tweets from Twitter API. 
 
 
 ## Part 2: Tweet preprocessing and sentiment analysis
-In this part, we receive tweets from Kafka and preprocess them with the pyspark library which is python's API for spark. We then apply sentiment analysis using textblob; A python's library for processing textual Data. I wrote an article on sentiment analysis [sentiment analysis ](https://lorenagongang.com/sentiment-analysis-concept-bitcoin-sentiment-analysis-using-python-and-twitter). I used the same code in this project.
-
+In this part, we receive tweets from Kafka and preprocess them with the pyspark library which is python's API for spark. We then apply sentiment analysis using textblob; A python's library for processing textual Data. 
 After sentiment analysis, we write the sentiment analysis scores in the console. We have also the possibility to store in a parquet file, which is a data storage format.
