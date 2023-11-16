@@ -1,6 +1,4 @@
-# twittersentimentanalysis
-
-This project is a good starting point for those who have little or no experience with Kafka & Apache Spark Streaming.
+# TwitterSentimentAnalysis
 
 ![image](https://user-images.githubusercontent.com/57892314/153753329-a49ef16f-37c5-43fd-8d24-312ae4c59803.png)
 
